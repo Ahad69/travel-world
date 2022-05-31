@@ -1,0 +1,30 @@
+
+.nav {
+    position: relative;
+   
+}
+.nav::after{
+    content: '';
+    background:linear-gradient(to left ,#a0f812,#f51c14);
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav:hover::after{
+    width: 100%;
+  
+} 
+
+nav a:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+.login-button{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+}

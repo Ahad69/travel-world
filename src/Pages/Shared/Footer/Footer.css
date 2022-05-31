@@ -1,0 +1,15 @@
+.footer{
+    background: #2c0c68;
+    color: white;
+    width: 100%;
+  
+    padding-top: 50px;
+}
+.fab{
+    cursor: pointer;
+}
+.footer-logo, .copyright{
+    
+    display: flex;
+    justify-content: center;
+}

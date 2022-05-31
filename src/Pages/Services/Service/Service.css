@@ -1,0 +1,13 @@
+.service{
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 30px;
+
+}
+.service:hover{
+    background: linear-gradient(to right , white , rgb(221, 220, 220));
+    transform: scale(1.02);
+    box-shadow: 1px 1px 30px 1px;
+}
+.icon-color{
+    color: gold;
+}

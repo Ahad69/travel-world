@@ -1,0 +1,19 @@
+.caption{
+    border-radius: 20px;
+    font-family: 'Scheherazade New', serif;
+    background-color: rgba(194, 228, 84, 0.986);
+    color: darkblue;
+}
+.banner-title{
+    margin-bottom: 300px;
+    font-size: 80px;    
+    font-weight: 700;
+}
+@media only screen and (max-width:992px)  {
+    .banner-title{
+        margin-bottom: 300px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+}
